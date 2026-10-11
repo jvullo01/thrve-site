@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0F172A">
+<meta name="description" content="Help for THRVE: recording, Apple Health, sensors, imports and exports.">
+<title>THRVE Support</title>
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<style>
+:root{--navy:#0F172A;--slate:#334155;--card:#1E293B;--teal:#14B8A6;--lime:#84CC16;--white:#F8FAFC;--muted:#94A3B8}
+*{box-sizing:border-box}
+html{background:var(--navy)}
+body{margin:0;min-height:100vh;color:var(--white);background:linear-gradient(180deg,var(--navy),#111C33) fixed;
+font:17px/1.6 system-ui,-apple-system,"SF Pro Text","Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+.wrap{max-width:680px;margin:0 auto;padding:40px 20px 64px}
+header{text-align:center;margin-bottom:28px}
+.mark{display:block;width:72px;height:72px;margin:0 auto 12px;border-radius:16px;box-shadow:0 6px 24px rgba(20,184,166,.25)}
+.word{font-weight:800;letter-spacing:.08em}
+h1{font-size:1.7rem;line-height:1.25;margin:0 0 6px;font-weight:800}
+.sub{color:var(--muted);margin:0}
+h2{color:var(--teal);font-size:1.15rem;margin:0 0 8px}
+section,details{background:rgba(30,41,59,.85);border:1px solid rgba(148,163,184,.18);border-radius:18px;padding:18px 20px;margin:0 0 14px}
+details{padding:0}
+summary{cursor:pointer;list-style:none;padding:16px 20px;font-weight:600;position:relative;padding-right:44px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:20px;top:14px;color:var(--teal);font-size:1.3rem}
+details[open] summary::after{content:"\2013"}
+details .a{padding:0 20px 16px}
+p{margin:0 0 10px}p:last-child{margin-bottom:0}
+ul{margin:0 0 10px;padding-left:1.2em}li{margin:4px 0}
+a{color:var(--teal)}
+.muted{color:var(--muted)}
+.pill{display:inline-block;background:rgba(132,204,22,.14);color:var(--lime);border:1px solid rgba(132,204,22,.4);border-radius:999px;padding:2px 12px;font-size:.9rem;font-weight:700}
+.links{display:grid;gap:12px;margin:18px 0 0}
+.btn{display:block;text-align:center;text-decoration:none;font-weight:700;color:var(--navy);background:var(--teal);border-radius:14px;padding:14px 18px}
+.btn.alt{background:transparent;color:var(--teal);border:1px solid rgba(20,184,166,.55)}
+footer{text-align:center;color:var(--muted);font-size:.9rem;margin-top:28px}
+footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header>
+<img class="mark" src="icon.png" alt="" width="72" height="72">
+<h1>Support</h1>
+<p class="sub">THRVE · Every Move Counts.</p>
+</header>
+<section>
+<h2>Contact</h2>
+<p>Email <a href="mailto:jvappsupport+thrve@proton.me">jvappsupport+thrve@proton.me</a>. Please include your iPhone model and iOS version. We usually reply within a few days.</p>
+</section>
+<details><summary>My route stops when the screen locks</summary><div class="a"><p>In iOS Settings → Privacy &amp; Security → Location Services → THRVE, choose <strong>While Using the App</strong> and turn on <strong>Precise Location</strong>. While a workout is recording, iOS shows a location indicator and the route keeps going with the screen locked.</p></div></details>
+<details><summary>Steps show as unavailable</summary><div class="a"><p>Turn on iOS Settings → Privacy &amp; Security → Motion &amp; Fitness → Fitness Tracking, and allow THRVE in that list.</p></div></details>
+<details><summary>Apple Health workouts don't appear</summary><div class="a"><p>Open the Health app → your profile → Apps → THRVE and turn on the data types you want THRVE to read, then import again from THRVE.</p></div></details>
+<details><summary>Saving workouts to Apple Health</summary><div class="a"><p>Turn on <strong>Save to Apple Health</strong> in THRVE Settings. Only workouts you record in THRVE are saved; imported ones are never copied back.</p></div></details>
+<details><summary>Pairing a heart rate strap or sensor</summary><div class="a"><p>Open Settings → Sensors, allow Bluetooth, wear or spin the sensor so it wakes up, then tap <strong>Pair</strong>. Standard Bluetooth heart rate, cycling speed and cadence, and running speed and cadence sensors are supported.</p></div></details>
+<details><summary>Importing from Strava or files</summary><div class="a"><p>Request your archive from Strava (Settings → My Account → Download or Delete Your Account), then in THRVE open History → Import and pick the .zip. You can pick GPX, TCX and FIT files the same way.</p></div></details>
+<details><summary>Exporting my data</summary><div class="a"><p>Open an activity and share it as GPX, or tap History → Export all to get everything as a .zip. Nothing is uploaded unless you send the file somewhere yourself.</p></div></details>
+<details><summary>Coach and search aren't showing</summary><div class="a"><p>These use Apple Intelligence on your iPhone. They appear on supported iPhones with Apple Intelligence turned on in iOS Settings. Everything else works without it.</p></div></details>
+<section>
+<h2>Privacy</h2>
+<p>THRVE collects no data. See the <a href="privacy.html">Privacy Policy</a>.</p>
+</section>
+<footer><p>THRVE for iPhone, by Jamie Vullo · <a href="./">Home</a> · <a href="support.html">Support</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p></footer>
+</main>
+</body>
+</html>
